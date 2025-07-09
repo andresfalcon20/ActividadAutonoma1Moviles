@@ -33,7 +33,7 @@ export default function LeerScreen() {
         data={productos}
         renderItem={({ item }: any) => (
           <View style={styles.card}>
-            <Text>🛒 {item.nombre}</Text>
+            <Text>PRODUCTO:   {item.nombre}</Text>
             <Text>Precio: ${item.precio}</Text>
             <Text>Descuento: ${item.precioConDescuento}</Text>
             <Text>Categoría: {item.categoria}</Text>
